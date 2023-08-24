@@ -1,0 +1,10 @@
+{
+    "name": "prasanthicluster",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "clusterPrasanthi",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}
