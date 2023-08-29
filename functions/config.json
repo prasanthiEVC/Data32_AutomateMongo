@@ -3,5 +3,9 @@
         "name": "myFunc",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "myFunc_movies",
+        "private": true
     }
 ]
