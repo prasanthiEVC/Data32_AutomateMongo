@@ -1,0 +1,28 @@
+{
+    "id": "64eda236a65a8b10e6af5c10",
+    "name": "Trigger_Sales",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "UPDATE"
+        ],
+        "database": "sample_supplies",
+        "collection": "sales",
+        "service_name": "prasanthicluster",
+        "match": {},
+        "project": {},
+        "full_document": false,
+        "full_document_before_change": false,
+        "unordered": false,
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "myFunc"
+            }
+        }
+    }
+}
